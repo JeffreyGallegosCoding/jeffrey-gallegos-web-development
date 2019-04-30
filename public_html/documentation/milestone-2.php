@@ -37,5 +37,11 @@
 			with them as well.
 			</p>
 		</div>
+		<div>
+			<img src="Wireframes%20Mobile.JPG">
+		</div>
+		<div>
+			<img src="Wireframe%20Desktop.png">
+		</div>
 	</body>
 </html>
