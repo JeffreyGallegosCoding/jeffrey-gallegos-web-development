@@ -1,0 +1,9 @@
+.backgroundimg {
+	background-image: url("computer-bg.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container-fluid {
+	font-family: "Lucida Sans Unicode";
+}
