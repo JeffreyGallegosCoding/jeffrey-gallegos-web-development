@@ -1,9 +1,38 @@
+/**
 .backgroundImg {
 	background-image: url("pexels-photo-office.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+*/
+
+.card-title {
+	font-size: 10em;
+}
 
 .container-fluid {
 	font-family: "Lucida Sans Unicode";
 }
+
+/**
+<div class="container bg-transparent py-5 px-5">
+															  <h1 class="row justify-content-center mb-5 text-dark">
+																																	 Jeffrey Gallegos, Web Developer
+				</h1>
+																																													 <div class="row">
+																																																		  <div class="col-sm-6">
+																																																									  <img class="img-fluid mx.auto d-block rounded-circle" src="Profilepic.jpg" alt="PWP Profile Pic">
+																																																																																									  </div>
+																																																																																										 <div class="col-6">Dúnadan, Dúnedain Ulaer Tar Aaye, Aiya Endóre Alqua Band Avari Fuin, Ered And Silme Áre
+Anarya Balrog Pelargir, Áre Bragol Endóre Aelin Cú Calma Eithel. Thalias Endóre Minas Quel re Daro
+Orodruin Er Gwador Aha Thalin Ambarona, Dúnadan, Dúnedain Firith Draug Adanedhel Draug Anto Dúnadan,
+																																																																																																 Dúnedain Mellon Calen, Dina Thalin Estel Anod Anca Certhas Anod Dagor Cormarë. Pelargir Onodrim Pelargir
+Anto Echuir Edhel Orodruin Ann-thannath, Amarth Cuivie Elen, Eleni, Elenion Aldalómë Ethuil Eldarin Êl,
+																																																																																																 Elin, Elenath, Aiglos Formen Eldarin Laer Celeb Endóre. Arda Tengwa Bregalad Ann-thannath Úlairi Ered
+Echor Naugrim, Brethil Cú Endari Gurth Ulaer Celeb Estellio Andúnë, Elen, Eleni, Elenion Barad Andúril
+Amandil thalias Quel re. Cormallen Fëa Beleg Echor Namáriëor Navaer thalias Orodruin Ereg Coranar Drego
+Aelin, Nikerym Endari Coron Elear Certar Cuivie Daro Estel Tinco.
+</div>
+  </div>
+	 </div>
+*/
