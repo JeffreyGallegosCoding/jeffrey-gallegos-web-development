@@ -14,3 +14,7 @@
 	font-family: "Lucida Sans Unicode";
 }
 
+.border {
+	border-width: 10rem; !important;
+}
+
