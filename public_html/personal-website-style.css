@@ -14,7 +14,8 @@
 	font-family: "Lucida Sans Unicode";
 }
 
-.border {
-	border-width: 10rem; !important;
+.portfolio img {
+	border: 1rem solid white;
 }
+
 
