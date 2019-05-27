@@ -6,8 +6,12 @@
 }
 */
 
-.card-title {
-	font-size: 10em;
+@media only screen and (max-width: 320vw) {
+
+	.card-title {
+		font-size: 10vw;
+	}
+
 }
 
 .container-fluid {
