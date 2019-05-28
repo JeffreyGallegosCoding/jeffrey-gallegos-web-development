@@ -6,6 +6,10 @@
 }
 */
 
+/**
+check into media query for editing the text when you change sizes to smaller devices
+ */
+
 @media only screen and (max-width: 320vw) {
 
 	.card-title {
