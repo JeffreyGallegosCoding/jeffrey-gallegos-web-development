@@ -22,7 +22,11 @@ check into media query for editing the text when you change sizes to smaller dev
 }
 
 .portfolio img {
-	border: 1rem solid white;
+	border: 1rem solid deepskyblue;
+}
+
+.about-me img {
+	border: 1rem solid deepskyblue;
 }
 
 
