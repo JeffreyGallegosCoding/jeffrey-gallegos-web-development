@@ -21,13 +21,45 @@ check into media query for editing the text when you change sizes to smaller dev
 	font-family: "Lucida Sans Unicode";
 }
 
-.portfolio img {
-	border: 1rem solid deepskyblue;
+.orange-border {
+	border: 1rem solid orangered;
 }
 
+/*.portfolio img {*/
+	/*border: 1rem solid orangered;*/
+/*}*/
+
 .about-me img {
-	border: 1rem solid deepskyblue;
+	border: 1rem solid orangered;
 }
+
+.btn-lg {
+	color: black;
+	background-color: orangered;
+}
+
+.btn {
+	background-color: orangered;
+	color: white;
+}
+
+.topic {
+	background-color: orangered;
+}
+
+
+/*!*.carousel-inner {*!*/
+	/*!*width: 700px;*!*/
+	/*!*height: 550px;*!*/
+/*!*}*!*/
+
+
+/*.image-fluid {*/
+	/*width: 700px;*/
+	/*height: 550px;*/
+	/*!*margin: auto;*!*/
+	/*!*display: block;*!*/
+/*}*/
 
 
 

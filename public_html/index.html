@@ -4,7 +4,7 @@
 		<!--required meta tags -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="style.css" type="text/css" />
+
 
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
@@ -29,6 +29,9 @@
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
+		<!-- CSS Stylesheet -->
+		<link rel="stylesheet" href="style.css" type="text/css" />
+
 		<title>Personal Website</title>
 
 	</head>
@@ -52,7 +55,7 @@
 			</div>
 		</header>
 		<!-- Jeffrey Gallegos Web Developer Section -->
-		<section class="bg-dark">
+		<section class="jeff-web bg-dark">
 			<div class="card bg-dark border-0">
 				<img class="card-img img-fluid" src="pexels-photo-office.jpg" alt="Head-Picture">
 				<div class="card-img-overlay">
@@ -86,14 +89,14 @@
 		<!-- Portfolio Section -->
 		<section class="portfolio container-fluid bg-info my-5" id="portfolio">
 			<h1 class="row justify-content-center mb-4">Portfolio</h1>
-			<div class="portfolio-slideshow row justify-content-center py-5 mx-5 bg-dark">
+			<div class="portfolio-slideshow row bg-dark justify-content-center py-5 mx-5">
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#carouselExampleCaptions" data-slide-to="0 class=active"></li>
 						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
 						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
 					</ol>
-					<div class="carousel-inner">
+					<div class="carousel-inner bg-dark">
 						<div class="carousel-item active">
 							<img src="rsz-capstone-map.jpg" class="img-fluid" alt="map-pic">
 							<div class="carousel-caption d-none d-md-block"></div>
@@ -140,24 +143,26 @@
 			<div class="container-fluid px-5 border border-dark bg-dark">
 			<div class="row my-5">
 				<div class="col-sm-3">
-					<img class="img-fluid mx.auto d-block mb-5" src="pexels-photo-hamburger.jpg" alt="Burger">
+					<img class="img-fluid mx.auto d-block mb-5 orange-border" src="pexels-photo-hamburger.jpg" alt="Burger">
 				</div>
 				<div class="col-sm-9">
 					<h4>
-						WhatsForLunch is an application designed for future DiveDive students to efficiently find restaurants within a one mile radius
-						of the Stemulus Center. The main page of the site displays a map of the restaurants in the area around the stemulus center with each restaurant having a pin to mark their location.
+						<p>WhatsForLunch is an application designed for future DiveDive students to efficiently find restaurants within a one mile radius
+							of the Stemulus Center.</p>
+						<p>The main page of the site displays a map of the restaurants in the area around the stemulus center with each restaurant having a pin to mark their location.
 						If the user wishes to create a profile, they have the option to create a favorites list for all of their favorite restaurants in the area. This allows
 						the user easy access to each of the restaurant's information and links to the restaurant's yelp pages. Once a restaurant is in the favorites menu,
-						the map even updates with a colored pin to show a favorited restaurant's location more conveniently on the map. Since the deep dive students are only
+						the map even updates with a colored pin to show a favorited restaurant's location more conveniently on the map.</p>
+						<p>Since the deep dive students are only
 						in the program for a few months, this application will allow them to get to know more of the establishments in the downtown
 						area that they may not have tried. Our group has even included some of our favorite restaurants that we
-						have visited during the program, if they would like an idea of where they could go first. Click the
-						Whats for lunch button below to go the official site!
-					</h4>
+							have visited during the program, if they would like an idea of where they could go first. </p>
+						<p>Click the Whats for lunch button below to go the official site!</p>
+						</h4>
 				</div>
 			</div>
 				<div class="row justify-content-center mb-5">
-					<a href="#" target="_blank" class="btn btn-info btn-lg btn-block">Whats For Lunch!</a>
+					<a href="#" target="_blank" class="btn btn-lg btn-block">Whats For Lunch!</a>
 				</div>
 		</div>
 		</section>
@@ -166,13 +171,13 @@
 			<div class="container py-5">
 				<div class="form-wrapper">
 					<h1 class="row justify-content-center">Contact Me!</h1>
-					<form id="contact-form" method="post" action="../php/mailer.php">
+					<form id="contact-form" method="post" action="../php/">
 						<!-- Name Entry -->
 						<div class="form-group col-sm-12 py-2">
 							<label for="name">Name</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="fa fa-user"></i></span>
+									<span class="input-group-text topic"><i class="fa fa-user"></i></span>
 								</div>
 								<input class="form-control" type="text" name="name" id="name" placeholder="">
 							</div>
@@ -182,7 +187,7 @@
 							<label for="name">Email</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="fa fa-envelope"></i></span>
+									<span class="input-group-text topic"><i class="fa fa-envelope"></i></span>
 								</div>
 								<input class="form-control" type="text" name="email" id="email" placeholder="">
 							</div>
@@ -192,7 +197,7 @@
 							<label for="name">Subject</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="fa fa-pencil-ruler"></i></span>
+									<span class="input-group-text topic"><i class="fa fa-pencil-ruler"></i></span>
 								</div>
 								<input class="form-control" type="text" name="subject" id="subject" placeholder="">
 							</div>
@@ -202,7 +207,7 @@
 							<label for="name">Message</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="fa fa-comment"></i></span>
+									<span class="input-group-text topic"><i class="fa fa-comment"></i></span>
 								</div>
 								<textarea class="form-control"  rows="5" name="message" id="message" placeholder="Input Message Here!"></textarea>
 							</div>
@@ -213,9 +218,9 @@
 						<div class="g-recaptcha" data-sitekey="6LeC8aMUAAAAAFbDr3WFoEnFevQu1RXu_K5zNY0P"></div>
 						</div>
 
-						<!-- Reset and Submit Buttons -->
+						<!-- Submit Button -->
 						<div class="form-group col-sm-12 py-2">
-							<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send It!</button>
+							<button class="btn" type="submit"><i class="fa fa-paper-plane"></i> Send It!</button>
 						</div>
 					</form>
 					<div class="row">
