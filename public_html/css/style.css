@@ -1,15 +1,7 @@
-/**
-.backgroundImg {
-	background-image: url("pexels-photo-office.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-*/
 
 /**
-check into media query for editing the text when you change sizes to smaller devices
+media query for card title text adjustments to different sized screens
  */
-
 @media only screen and (max-width: 320vw) {
 
 	.card-title {
@@ -17,32 +9,39 @@ check into media query for editing the text when you change sizes to smaller dev
 	}
 }
 
+/**
+All text on page set to lucida sans unicode
+ */
 .container-fluid {
 	font-family: "Lucida Sans Unicode";
 }
 
+/**
+Orange border for the hamburger pic
+ */
 .orange-border {
 	border: 1rem solid orangered;
 }
 
-/*.portfolio img {*/
-	/*border: 1rem solid orangered;*/
-/*}*/
 
+/**
+orange border for the profile pic
+ */
 .about-me img {
 	border: 1rem solid orangered;
 }
 
-.btn-lg {
-	color: black;
-	background-color: orangered;
-}
-
+/**
+button coloring for whatsforlunch button and send button in contacts
+ */
 .btn {
 	background-color: orangered;
 	color: white;
 }
 
+/**
+coloring for fontAwesome images in contact section
+ */
 .topic {
 	background-color: orangered;
 	color: white;
@@ -55,12 +54,12 @@ check into media query for editing the text when you change sizes to smaller dev
  /*}*/
 
 
-.pic {
-	width: auto;
-	height: 600px;
-	margin: auto;
-	display: block;
-}
+/*.pic {*/
+	/*width: auto;*/
+	/*height: 600px;*/
+	/*margin: auto;*/
+	/*display: block;*/
+/*}*/
 
 
 
