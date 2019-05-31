@@ -45,21 +45,22 @@ check into media query for editing the text when you change sizes to smaller dev
 
 .topic {
 	background-color: orangered;
+	color: white;
 }
 
 
-/*!*.carousel-inner {*!*/
-	/*!*width: 700px;*!*/
-	/*!*height: 550px;*!*/
-/*!*}*!*/
+/*.carousel-inner {*/
+	 /*width: 600px;*/
+	 /*height: 600px;*/
+ /*}*/
 
 
-/*.image-fluid {*/
-	/*width: 700px;*/
-	/*height: 550px;*/
-	/*!*margin: auto;*!*/
-	/*!*display: block;*!*/
-/*}*/
+.pic {
+	width: auto;
+	height: 600px;
+	margin: auto;
+	display: block;
+}
 
 
 
